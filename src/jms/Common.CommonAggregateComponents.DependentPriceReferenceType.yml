@@ -1,0 +1,32 @@
+UBL21\Common\CommonAggregateComponents\DependentPriceReferenceType:
+    properties:
+        percent:
+            expose: true
+            access_type: public_method
+            serialized_name: Percent
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPercent
+                setter: setPercent
+            type: UBL21\Common\CommonBasicComponents\Percent
+        locationAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: LocationAddress
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getLocationAddress
+                setter: setLocationAddress
+            type: UBL21\Common\CommonAggregateComponents\LocationAddress
+        dependentLineReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DependentLineReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDependentLineReference
+                setter: setDependentLineReference
+            type: UBL21\Common\CommonAggregateComponents\DependentLineReference

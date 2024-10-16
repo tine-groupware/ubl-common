@@ -1,0 +1,22 @@
+UBL21\Common\UriEtsi\V132\OCSPRefType:
+    properties:
+        oCSPIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: OCSPIdentifier
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getOCSPIdentifier
+                setter: setOCSPIdentifier
+            type: UBL21\Common\UriEtsi\V132\OCSPIdentifierType
+        digestAlgAndValue:
+            expose: true
+            access_type: public_method
+            serialized_name: DigestAlgAndValue
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getDigestAlgAndValue
+                setter: setDigestAlgAndValue
+            type: UBL21\Common\UriEtsi\V132\DigestAlgAndValueType

@@ -1,0 +1,25 @@
+{
+    "name": "tine-groupware/ubl-common",
+    "type": "library",
+    "license": [
+        "BSD-3-Clause"
+    ],
+    "authors": [
+        {
+            "name": "Paul Mehrer",
+            "email": "p.mehrer@metaways.de"
+        }
+    ],
+    "require": {
+        "goetas-webservices/xsd2php": "dev-master",
+        "goetas-webservices/xsd2php-runtime": "^0.2.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "UBL21\\Common\\": "src/php/Common/"
+        }
+    },
+    "scripts": {
+        "xsd2php": "docker build -t ubl-common:1 -f ./docker/Dockerfile ./docker; docker run -u `id -u`:`id -g` --rm -v ./:/ubl ubl-common:1 ash -c 'cd /ubl; ./vendor/bin/xsd2php convert ./xsd2phpConf.yml ./xsd/main.xsd'"
+    }
+}

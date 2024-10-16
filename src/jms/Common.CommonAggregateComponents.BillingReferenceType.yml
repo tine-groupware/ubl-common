@@ -1,0 +1,86 @@
+UBL21\Common\CommonAggregateComponents\BillingReferenceType:
+    properties:
+        invoiceDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: InvoiceDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getInvoiceDocumentReference
+                setter: setInvoiceDocumentReference
+            type: UBL21\Common\CommonAggregateComponents\InvoiceDocumentReference
+        selfBilledInvoiceDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: SelfBilledInvoiceDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSelfBilledInvoiceDocumentReference
+                setter: setSelfBilledInvoiceDocumentReference
+            type: UBL21\Common\CommonAggregateComponents\SelfBilledInvoiceDocumentReference
+        creditNoteDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: CreditNoteDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCreditNoteDocumentReference
+                setter: setCreditNoteDocumentReference
+            type: UBL21\Common\CommonAggregateComponents\CreditNoteDocumentReference
+        selfBilledCreditNoteDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: SelfBilledCreditNoteDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSelfBilledCreditNoteDocumentReference
+                setter: setSelfBilledCreditNoteDocumentReference
+            type: UBL21\Common\CommonAggregateComponents\SelfBilledCreditNoteDocumentReference
+        debitNoteDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: DebitNoteDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getDebitNoteDocumentReference
+                setter: setDebitNoteDocumentReference
+            type: UBL21\Common\CommonAggregateComponents\DebitNoteDocumentReference
+        reminderDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ReminderDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getReminderDocumentReference
+                setter: setReminderDocumentReference
+            type: UBL21\Common\CommonAggregateComponents\ReminderDocumentReference
+        additionalDocumentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalDocumentReference
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getAdditionalDocumentReference
+                setter: setAdditionalDocumentReference
+            type: UBL21\Common\CommonAggregateComponents\AdditionalDocumentReference
+        billingReferenceLine:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingReferenceLine
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getBillingReferenceLine
+                setter: setBillingReferenceLine
+            xml_list:
+                inline: true
+                entry_name: BillingReferenceLine
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL21\Common\CommonAggregateComponents\BillingReferenceLine>

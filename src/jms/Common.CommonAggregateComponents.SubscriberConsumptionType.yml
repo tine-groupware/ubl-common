@@ -1,0 +1,104 @@
+UBL21\Common\CommonAggregateComponents\SubscriberConsumptionType:
+    properties:
+        consumptionID:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumptionID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getConsumptionID
+                setter: setConsumptionID
+            type: UBL21\Common\CommonBasicComponents\ConsumptionID
+        specificationTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecificationTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getSpecificationTypeCode
+                setter: setSpecificationTypeCode
+            type: UBL21\Common\CommonBasicComponents\SpecificationTypeCode
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<UBL21\Common\CommonBasicComponents\Note>
+        totalMeteredQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalMeteredQuantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getTotalMeteredQuantity
+                setter: setTotalMeteredQuantity
+            type: UBL21\Common\CommonBasicComponents\TotalMeteredQuantity
+        subscriberParty:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriberParty
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSubscriberParty
+                setter: setSubscriberParty
+            type: UBL21\Common\CommonAggregateComponents\SubscriberParty
+        utilityConsumptionPoint:
+            expose: true
+            access_type: public_method
+            serialized_name: UtilityConsumptionPoint
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getUtilityConsumptionPoint
+                setter: setUtilityConsumptionPoint
+            type: UBL21\Common\CommonAggregateComponents\UtilityConsumptionPoint
+        onAccountPayment:
+            expose: true
+            access_type: public_method
+            serialized_name: OnAccountPayment
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getOnAccountPayment
+                setter: setOnAccountPayment
+            xml_list:
+                inline: true
+                entry_name: OnAccountPayment
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL21\Common\CommonAggregateComponents\OnAccountPayment>
+        consumption:
+            expose: true
+            access_type: public_method
+            serialized_name: Consumption
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getConsumption
+                setter: setConsumption
+            type: UBL21\Common\CommonAggregateComponents\Consumption
+        supplierConsumption:
+            expose: true
+            access_type: public_method
+            serialized_name: SupplierConsumption
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getSupplierConsumption
+                setter: setSupplierConsumption
+            xml_list:
+                inline: true
+                entry_name: SupplierConsumption
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            type: array<UBL21\Common\CommonAggregateComponents\SupplierConsumption>

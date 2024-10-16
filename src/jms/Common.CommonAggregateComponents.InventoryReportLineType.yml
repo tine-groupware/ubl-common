@@ -1,0 +1,86 @@
+UBL21\Common\CommonAggregateComponents\InventoryReportLineType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: UBL21\Common\CommonBasicComponents\ID
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getNote
+                setter: setNote
+            xml_list:
+                inline: true
+                entry_name: Note
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<UBL21\Common\CommonBasicComponents\Note>
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: UBL21\Common\CommonBasicComponents\Quantity
+        inventoryValueAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: InventoryValueAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getInventoryValueAmount
+                setter: setInventoryValueAmount
+            type: UBL21\Common\CommonBasicComponents\InventoryValueAmount
+        availabilityDate:
+            expose: true
+            access_type: public_method
+            serialized_name: AvailabilityDate
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAvailabilityDate
+                setter: setAvailabilityDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        availabilityStatusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AvailabilityStatusCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAvailabilityStatusCode
+                setter: setAvailabilityStatusCode
+            type: UBL21\Common\CommonBasicComponents\AvailabilityStatusCode
+        item:
+            expose: true
+            access_type: public_method
+            serialized_name: Item
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getItem
+                setter: setItem
+            type: UBL21\Common\CommonAggregateComponents\Item
+        inventoryLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: InventoryLocation
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getInventoryLocation
+                setter: setInventoryLocation
+            type: UBL21\Common\CommonAggregateComponents\InventoryLocation

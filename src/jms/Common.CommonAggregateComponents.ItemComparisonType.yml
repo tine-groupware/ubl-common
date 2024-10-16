@@ -1,0 +1,22 @@
+UBL21\Common\CommonAggregateComponents\ItemComparisonType:
+    properties:
+        priceAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: PriceAmount
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPriceAmount
+                setter: setPriceAmount
+            type: UBL21\Common\CommonBasicComponents\PriceAmount
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: UBL21\Common\CommonBasicComponents\Quantity

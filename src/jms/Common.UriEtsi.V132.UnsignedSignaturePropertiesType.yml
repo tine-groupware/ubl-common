@@ -1,0 +1,141 @@
+UBL21\Common\UriEtsi\V132\UnsignedSignaturePropertiesType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: Id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        counterSignature:
+            expose: true
+            access_type: public_method
+            serialized_name: CounterSignature
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getCounterSignature
+                setter: setCounterSignature
+            type: UBL21\Common\UriEtsi\V132\CounterSignatureType
+        signatureTimeStamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SignatureTimeStamp
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getSignatureTimeStamp
+                setter: setSignatureTimeStamp
+            type: UBL21\Common\UriEtsi\V132\XAdESTimeStampType
+        completeCertificateRefs:
+            expose: true
+            access_type: public_method
+            serialized_name: CompleteCertificateRefs
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getCompleteCertificateRefs
+                setter: setCompleteCertificateRefs
+            type: UBL21\Common\UriEtsi\V132\CompleteCertificateRefsType
+        completeRevocationRefs:
+            expose: true
+            access_type: public_method
+            serialized_name: CompleteRevocationRefs
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getCompleteRevocationRefs
+                setter: setCompleteRevocationRefs
+            type: UBL21\Common\UriEtsi\V132\CompleteRevocationRefsType
+        attributeCertificateRefs:
+            expose: true
+            access_type: public_method
+            serialized_name: AttributeCertificateRefs
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getAttributeCertificateRefs
+                setter: setAttributeCertificateRefs
+            type: UBL21\Common\UriEtsi\V132\CompleteCertificateRefsType
+        attributeRevocationRefs:
+            expose: true
+            access_type: public_method
+            serialized_name: AttributeRevocationRefs
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getAttributeRevocationRefs
+                setter: setAttributeRevocationRefs
+            type: UBL21\Common\UriEtsi\V132\CompleteRevocationRefsType
+        sigAndRefsTimeStamp:
+            expose: true
+            access_type: public_method
+            serialized_name: SigAndRefsTimeStamp
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getSigAndRefsTimeStamp
+                setter: setSigAndRefsTimeStamp
+            type: UBL21\Common\UriEtsi\V132\XAdESTimeStampType
+        refsOnlyTimeStamp:
+            expose: true
+            access_type: public_method
+            serialized_name: RefsOnlyTimeStamp
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getRefsOnlyTimeStamp
+                setter: setRefsOnlyTimeStamp
+            type: UBL21\Common\UriEtsi\V132\XAdESTimeStampType
+        certificateValues:
+            expose: true
+            access_type: public_method
+            serialized_name: CertificateValues
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getCertificateValues
+                setter: setCertificateValues
+            type: UBL21\Common\UriEtsi\V132\CertificateValuesType
+        revocationValues:
+            expose: true
+            access_type: public_method
+            serialized_name: RevocationValues
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getRevocationValues
+                setter: setRevocationValues
+            type: UBL21\Common\UriEtsi\V132\RevocationValuesType
+        attrAuthoritiesCertValues:
+            expose: true
+            access_type: public_method
+            serialized_name: AttrAuthoritiesCertValues
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getAttrAuthoritiesCertValues
+                setter: setAttrAuthoritiesCertValues
+            type: UBL21\Common\UriEtsi\V132\CertificateValuesType
+        attributeRevocationValues:
+            expose: true
+            access_type: public_method
+            serialized_name: AttributeRevocationValues
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getAttributeRevocationValues
+                setter: setAttributeRevocationValues
+            type: UBL21\Common\UriEtsi\V132\RevocationValuesType
+        archiveTimeStamp:
+            expose: true
+            access_type: public_method
+            serialized_name: ArchiveTimeStamp
+            xml_element:
+                namespace: 'http://uri.etsi.org/01903/v1.3.2#'
+            accessor:
+                getter: getArchiveTimeStamp
+                setter: setArchiveTimeStamp
+            type: UBL21\Common\UriEtsi\V132\XAdESTimeStampType

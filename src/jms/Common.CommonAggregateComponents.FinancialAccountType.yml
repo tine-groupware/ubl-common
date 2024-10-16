@@ -1,0 +1,96 @@
+UBL21\Common\CommonAggregateComponents\FinancialAccountType:
+    properties:
+        iD:
+            expose: true
+            access_type: public_method
+            serialized_name: ID
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getID
+                setter: setID
+            type: UBL21\Common\CommonBasicComponents\ID
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getName
+                setter: setName
+            type: UBL21\Common\CommonBasicComponents\Name
+        aliasName:
+            expose: true
+            access_type: public_method
+            serialized_name: AliasName
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAliasName
+                setter: setAliasName
+            type: UBL21\Common\CommonBasicComponents\AliasName
+        accountTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountTypeCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAccountTypeCode
+                setter: setAccountTypeCode
+            type: UBL21\Common\CommonBasicComponents\AccountTypeCode
+        accountFormatCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountFormatCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getAccountFormatCode
+                setter: setAccountFormatCode
+            type: UBL21\Common\CommonBasicComponents\AccountFormatCode
+        currencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyCode
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getCurrencyCode
+                setter: setCurrencyCode
+            type: UBL21\Common\CommonBasicComponents\CurrencyCode
+        paymentNote:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentNote
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            accessor:
+                getter: getPaymentNote
+                setter: setPaymentNote
+            xml_list:
+                inline: true
+                entry_name: PaymentNote
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2'
+            type: array<UBL21\Common\CommonBasicComponents\PaymentNote>
+        financialInstitutionBranch:
+            expose: true
+            access_type: public_method
+            serialized_name: FinancialInstitutionBranch
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getFinancialInstitutionBranch
+                setter: setFinancialInstitutionBranch
+            type: UBL21\Common\CommonAggregateComponents\FinancialInstitutionBranch
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: Country
+            xml_element:
+                namespace: 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: UBL21\Common\CommonAggregateComponents\Country
