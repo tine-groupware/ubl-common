@@ -14,4 +14,4 @@ xsd2php:
   destinations_php:
     'UBL21': src/php
   destinations_jms:
-    'UBL21': src/jms
+    'UBL21\Common': src/jms
