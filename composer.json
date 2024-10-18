@@ -10,7 +10,7 @@
             "email": "p.mehrer@metaways.de"
         }
     ],
-    "require": {
+    "require-dev": {
         "goetas-webservices/xsd2php": "dev-master",
         "goetas-webservices/xsd2php-runtime": "^0.2.17"
     },
